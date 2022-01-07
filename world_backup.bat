@@ -48,6 +48,7 @@ if exist %world_path%  (
         echo "WARNING! World file back up failed! Please close the process and try again."
     )
 
+    @REM TODO: Delete old back ups
     @REM for /f %%A in ('dir /a-d-s-h /b ^| find /v /c ""') do set cnt=%%A
     @REM echo File count = %cnt%
     echo:
